@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+text-align: center;
+margin-top: 5%;
+margin-bottom: 2%;
+
+}
+.a{
+    /* display: inline-block; */
+border :3px solid black;
+width: 480px; 
+
+            height: 117px;
+            padding: 0px 20px 30px 40px;
+      margin:0px 0px 0px 0px;
+      /* vertical-align: top; */
+background-color: gray;
+color: black;
+float: left;
+
+
+
+
+}
+.b {
+
+border: 2px solid black ;
+position: relative;
+left: 67%;
+color: black;
+border-radius: 20px;
+background-color: pink;
+font-size: larger;
+padding-right: 50px;
+padding-left: 50px;
+border-top: 50px;
+border-right: 50px;
+
+}
+.c{
+    border: 2px solid black ;
+    position: relative;
+    left: 71.7%;
+    color: black;
+    border-radius: 20px;
+    background-color: rgb(239, 12, 50);
+    font-size: larger;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-top: 50px;
+    border-right: 50px;
+
+
+
+}
+.d{
+    border: 2px solid black ;
+    position: relative;
+    left: 70%;
+    color: black;
+    border-radius: 20px;
+    background-color: rgb(216, 213, 13);
+    font-size: larger;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-top: 50px;
+    border-right: 50px;
+}
+ .e{
+    border: 0px solid black ;
+position: relative;
+left: -8%;
+color: black;
+background-color:rgb(239, 51, 224);
+font-size: medium;
+border-radius: 5px;
+padding-right: 8px;
+padding-left: 8px;
+border-left: none;
+border-bottom: none;
+}
+.f{  
+    border: 0px solid black ;
+    position: relative;
+    left:-8%;
+    color: black;
+    background-color:rgb(239, 51, 224);
+    font-size: medium;
+    border-radius: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-left: none;
+    border-bottom: none;
+
+}
+.g{
+    border: 0px solid black ;
+    position: relative;
+    left: -8%;
+    color: black;
+    background-color:rgb(239, 51, 224);
+font-size: medium;
+border-radius: 5px;
+padding-right: 8px;
+padding-left: 8px;
+border-left: none;
+border-bottom: none;
+
+
+}
+div:hover{
+    background: red;
+    
+}
+.row{
+    width: 100%;
+}
+@media (min-width: 1200px){
+    .div{
+        width: 33%;
+        float: left;
+    }
+   
+}
+ @media (min-width: 850px) and (max-width: 1199px){
+    .div{
+        width: 50%;
+        padding-top: 10%;
+       
+       
+        
+    }
+  
+   
+}     
+ @media ( max-width: 849px){
+    .div{
+        width:100%;
+        
+   
+ }
+} 
